@@ -1,0 +1,27 @@
+
+t{
+	color: #000000;
+	background: #2db34a;
+	line-height: 200px;
+	text-align: center;
+	width: 300px;
+	height: 350px;
+	border-radius: 2px;
+	transition-property: color, width, background, border-radius;
+	transition-duration: .5s;
+	transition-timing-function: linear;
+	transition-delay: .1s;
+	font-size:200%;
+}
+
+t:hover{
+	color:#ffffff;
+	width: 450px;
+	background: #2D31B3;
+	border-radius: 100%;
+}
+t:active{
+	color:#000000;
+	width: 250px;
+	background: #00ddb3;
+}

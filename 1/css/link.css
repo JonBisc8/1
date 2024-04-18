@@ -1,0 +1,26 @@
+
+l1{
+	display: block;
+	font-weight: bold;
+	color: #00ffff;
+	background-color: #00ff00;
+	width: 200px;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none; /*no underline*/
+	margin:0 auto;
+	margin-left: 10px;
+	float: center;
+	line-height: 100%;
+}
+l1:hover{
+	background: #B3B3B3;
+	color: #0006CC;
+}
+l1:focus{
+	background: #000000;
+	color: #0006CC;
+}
+l1:active{
+	border: 0px solid #B3B3B3;
+}

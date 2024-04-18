@@ -1,0 +1,29 @@
+pos{
+	position:relative;
+	border: 5px solid black;
+	height: 300px;
+	width: 400px;
+}
+p1{
+	border: 1px solid red;
+	width: 50%;
+	position: static;
+	top:100px;
+	left:50px;
+
+/*The code below removes default browser styling.*/
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+-webkit-margin-start: 0;
+-webkit-margin-end: 0;
+}
+
+/*TEST ME!!
+	1) Open this page and look at it. the 
+	paragraphs are all in their default
+	location. the top/left values are
+*/
+
+
+
+

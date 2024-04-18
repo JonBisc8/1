@@ -1,0 +1,92 @@
+/** You can put as many as selectors as you want!*/
+ex{
+	font-family: Courier, Impact, Cursive, Arial; /*options*/
+	
+	font-family: mySpecialFont; /*in case of a font of your own*/
+	src: url('Font/'Colleen.ttf'');
+	
+	font-style: italic, oblique, normal;
+	font-variant: normal, small-caps;
+	
+	color:blue !important; /* overcomes any redundant tag */
+	color:#0000FF; /*Blue*/
+	background-color: #B3B3B3; /*Grey*/
+	
+	text-align: left, right, center, justify;
+	
+	line-height:50%; /*how much space between the lines*/
+}
+span{
+	width: 75px;
+	height: 50px;
+	background: #00ff00; /*green*/
+	
+	display: none; //none
+	display: block; //top of each other
+	display: inline-block;//next to each other
+	float: left;//far to the left end 
+	float: right;// far to the right end
+	
+	/*
+	It might look better at first but it gets messy when resized 
+	so in order to fix that here are a couple of tags:
+	*/
+	
+	Overflow: visible;//Can cause text to show up "on top" of any other text
+	Overflow: hidden; //hides anything that goes beyond bounding box (cause problems to read)
+	Overflow: scroll;//Gives horizontal and vertical scrollbars
+	Overflow: auto;//Adds scrollbars as needed
+	
+	//In case the texts have different lengths and you want to have table-like layout:
+	display:table;
+	display:table-cell;
+}
+div{
+	width:45%;
+	height:100px;
+	background:#00ffff /*sky-blue*/
+	float:left;//looks kinda crazy
+}
+p{
+	width:200px;
+	height:100px;
+	background:#ff00ff; /*fuchsia*/
+	float:both; //clear both sides
+}
+
+//Borders
+div2{
+	border: solid 1px #CC00AA;
+	'' : none, dotted, dashed, double, groove, ridge, inset, outset, hidden;//options
+	width: % / thin, medium, large;
+	color: rgb(0,0,255);
+	
+	//Individual sides
+	border-width: 3px;
+	border-width: 3px 10px;
+	border-width: 3px 10px 20px;
+	border-width: top, right, bottom, left;//in case of 4 values
+	
+	//margin+border+padding+content= actual width
+}
+
+div3{
+	width: 100px; //page width = 132px 
+	height: 50px;
+	margin: 5px;
+	border: 1px solid black;
+	padding: 10px;
+	padding-top,left,right,bottom:...//which side you want the padding;
+}
+
+img{
+	width:75px;
+}
+
+
+
+
+
+
+
+
